@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micky's Beauty hub</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+</head>
+<body>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+          <div class="container">
+              <h1 class="logo">Micky's Nail Beauty Hub</h1>
+              <ul class="nav-links">
+                  <li><a href="#hero" class="nav-link"><i class="fas fa-home"></i>Home</a></li>
+                  <li><a href="#services" class="nav-link"><i class="fas fa-palette"></i>Services</a></li>
+                  <li><a href="#gallery" class="nav-link"><i class="fas fa-camera"></i>Gallery</a></li>
+                  <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i>About</a></li>
+                  <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i>Contact</a></li>
+              </ul>
+              <div class="burger">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+              </div>
+              
+          </div>
+      </nav>
+  
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+          <div class="container">
+              <h1>Welcome to Nail Beauty Hub</h1>
+              <p>Get the best nail care services in town. Where beauty meets artistry</p>
+              <button class="book-btn"><i class="fas fa-calendar-check"></i>Book an Appointment</button>
+          </div>
+      </section>
+      <section id="zero"></section>
+  
+      <!-- Services Section -->
+      <section class="services" id="services">
+          <div class="container">
+              <h2>Our Services</h2>
+              <div class="service-grid">
+                  <div class="service">
+                      <i class="fas fa-palette"></i>
+                      <h3>Nail Polish Application</h3>
+                      <p>Get your nails polished with our wide range of colors</p>
+                  </div>
+                  <div class="service">
+                      <i class="fas fa-scissors"></i>
+                      <h3>Nail Trimming and Shaping</h3>
+                      <p>Get your nails trimmed and shaped to perfection</p>
+                  </div>
+                  <div class="service">
+                      <i class="fas fa-nail"></i>
+                      <h3>Nail Extension</h3>
+                      <p>Get your nails extended with our expert technicians</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Gallery Section -->
+      <section class="gallery" id="gallery">
+          <div class="container">
+              <h2>Our Gallery</h2>
+              <div class="gallery-grid">
+                <div class="image-container">
+                  <img src="nail1.jpg" alt="Image 1">
+                  <div class="description">
+                    <p>Description 1</p>
+                        <a href="#" data-image="nail1.jpg" target="_blank" class="view-link">Click here to view image</a>
+                  </div>
+                </div>
+                
+                <div class="image-container">
+                  <img src="nail2.jpg" alt="Image 2">
+                  <div class="description">
+                    <p>Description 2</p>
+                        <a href="#" data-image="nail2.jpg" target="_blank" class="view-link">Click here to view image</a>
+                  </div>
+                </div>
+
+                <div class="image-container">
+                  <img src="nail3.jpg" alt="Image 3">
+                  <div class="description">
+                    <p>Description 3</p>
+                        <a href="#" data-image="nail3.jpg" target="_blank" class="view-link">Click here to view image</a>
+                  </div>
+                </div>
+
+                <div class="image-container">
+                  <img src="nail4.jpg" alt="Image 4">
+                  <div class="description">
+                    <p>Description 4</p>
+                        <a href="#" data-image="nail4.jpg" target="_blank" class="view-link">Click here to view image</a>
+                  </div>
+                </div>
+
+                <div class="image-container">
+                  <img src="nail5.jpg" alt="Image 5">
+                  <div class="description">
+                    <p>Description 5</p>
+                        <a href="#" data-image="nail5.jpg" target="_blank" class="view-link">Click here to view image</a>
+                  </div>
+                </div>
+
+                <div class="image-container">
+                  <img src="nail6.jpg" alt="Image 6">
+                  <div class="description">
+                    <p>Description 6</p>
+                        <a href="#" data-image="nail6.jpg" target="_blank" class="view-link">Click here to view image</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Modal for viewing image -->
+                <div id="imageModal" class="modal">
+                    <span class="close">&times;</span>
+                        <img class="modal-content" id="modalImage" />
+                </div>
+          </div>
+      </section>
+  
+      <!-- About Section -->
+      <section class="about" id="about">
+          <div class="container">
+              <h2>About Us</h2>
+              <p>We are a team of expert nail technicians dedicated to providing the best nail care services in town</p>
+              <p>We are located in Budiriro, and we are also mobile, <span>Wherever you are we will be there to to do all your nails</tt></p>
+            
+            </div>
+      </section>
+  
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+          <div class="container">
+              <h2>Get in Touch</h2>
+              <p>Contact us to book an appointment or to learn more about our services</p>
+              <form>
+                  <input type="text" placeholder="Name">
+                  <input type="email" placeholder="Email">
+                  <textarea placeholder="Message"></textarea>
+                  <button class="send-btn"><i class="fas fa-paper-plane"></i>Send</button>
+              </form>
+          </div>
+      </section>
+  
+      <script src="script.js"></script>
+
+</body>
+</html>
