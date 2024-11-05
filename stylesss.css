@@ -81,7 +81,7 @@ body {
   font-size: 3em;
 }
 
- @media (max-width: 600px) {
+ @media (max-width: 270px) {
             .navbar a {
                 font-size: 0;
                 padding: 14px 10px;
