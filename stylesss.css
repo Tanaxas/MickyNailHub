@@ -83,8 +83,11 @@ body {
 
  @media (max-width: 600px) {
             .navbar a {
-                padding: 10px 5px;
-                font-size: 14px;
+                font-size: 0;
+                padding: 14px 10px;
+            }
+           .navbar a i {
+                font-size: 20px;
             }
             .navbar .logo {
                 font-size: 26px;
@@ -101,7 +104,6 @@ body {
                 padding: 8px 16px;
             }
         }
-
 
 .container {
   max-width: 800px;
